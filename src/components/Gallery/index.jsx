@@ -2,7 +2,7 @@ import { usePhotos } from '../../contexts/PhotosContext'
 import styles from './styles.module.scss'
 import { Container } from 'react-bootstrap'
 export default function Gallery() {
-    const {isHero, isLoading} = usePhotos()
+    const {isHero} = usePhotos()
     return (
         <Container className={`h-100 d-grid gap-4 ${styles.gallery__grid}`}>
             {
