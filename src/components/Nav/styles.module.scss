@@ -1,0 +1,9 @@
+@use '../../styles/variables' as *;
+.menu{
+    &:global(.navbar){
+        padding:10px 20px;
+    }
+    &:global(:has(.show)){
+        background-color:$color-ffffff;
+    }
+}

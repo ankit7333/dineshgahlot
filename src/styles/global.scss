@@ -1,0 +1,56 @@
+@use 'index.scss' as *;
+*{
+    box-sizing:border-box;
+    outline:medium none;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+  }
+  
+  img{
+    max-width:100%;
+    border:0;
+    vertical-align:middle;
+    width:100%;
+    height:100%;
+  }
+  
+  a{
+    text-decoration:none;
+    border:0;
+    outline:none;
+    cursor:pointer;
+    &:hover, &:active, &:visited, &:focus{
+      text-decoration:none;
+      outline:0 none;
+    }
+  }
+  
+  ul, ol, li{
+    list-style:none;
+    margin:0;
+    padding:0;
+    background:none;
+  }
+  
+  body{
+    margin:0 auto;
+    -webkit-overflow-scrolling:touch;
+    touch-action:manipulation;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  
+  hr{
+    border:none;
+  }
+  
+  body, input, textarea, select, button{
+    text-rendering:optimizeSpeed;
+    font-family:'Poppins';
+    -webkit-tap-highlight-color:transparent;
+  }
+  .z-index-2{
+    z-index:2;
+  }
