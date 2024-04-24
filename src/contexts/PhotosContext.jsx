@@ -50,7 +50,7 @@ function PhotosProvider({children}){
         return () => {
             window.removeEventListener('scroll', handleScroll);
         }
-    },[handleScroll]);
+    },[]);
 
     useEffect(()=>{
         async function fetchHero(){
