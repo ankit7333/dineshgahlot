@@ -1,8 +1,9 @@
 import { Container } from 'react-bootstrap'
 import MyCarousel from '../Carousel'
+import styles from './styles.module.scss'
 export default function Testimonial() {
     return (
-        <Container>
+        <Container className={`d-flex justify-content-center align-items-center ${styles.testimonial}`}>
             <div className="row">
                 <div className="col-md-6">
                 {/* <!-- Testimonial Text --> */}
